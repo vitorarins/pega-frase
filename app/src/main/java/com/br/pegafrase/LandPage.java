@@ -2,6 +2,7 @@ package com.br.pegafrase;
 
 import android.app.Activity;
 import android.app.Fragment;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -15,6 +16,11 @@ public class LandPage extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+//        TextView txt = (TextView) findViewById(R.id.land_logo);
+//        Typeface font = Typeface.createFromAsset(getAssets(), "Always_In_My_Heart.ttf");
+//        txt.setTypeface(font);
+
         setContentView(R.layout.activity_land_page);
         if (savedInstanceState == null) {
             getFragmentManager().beginTransaction()
@@ -44,6 +50,13 @@ public class LandPage extends Activity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    /** Called when the user clicks the Play button */
+    public void playTheGame(View view) {
+
+        Intent intent = new Intent(this, PlayGameActivity.class);
+        startActivity(intent);
     }
 
     /**

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+        name="wish_you_were_here">
+        <item>Pega Frase</item>
+        <item>banana</item>
+        <item>macaco</item>
+        <item>caipira</item>
+        <item>lele</item>
+        <item>vivi</item>
+    </string-array>
+</resources>
