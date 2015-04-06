@@ -5,6 +5,7 @@ import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.content.res.Resources;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.LayoutInflater;
@@ -29,6 +30,7 @@ public class PlayGameActivity extends Activity {
     private Handler handler;
     private LinkedList<String> wordList;
     private Iterator wordListIterator;
+    MediaPlayer mediaPlayer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,6 +68,13 @@ public class PlayGameActivity extends Activity {
         @Override
         public void run() {
 
+            if (mediaPlayer != null) {
+                mediaPlayer.stop();
+            }
+
+            mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.bomb_boom);
+            mediaPlayer.start();
+
             FragmentManager fragmentManager = getFragmentManager();
             FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
             fragmentTransaction.replace(R.id.fragment_container,timeUpFragment);
@@ -89,6 +98,9 @@ public class PlayGameActivity extends Activity {
         TextView wordOfTheTime = (TextView) findViewById(R.id.word_text_view);
         wordListIterator = wordList.listIterator();
         wordOfTheTime.setText((CharSequence) wordListIterator.next());
+
+        mediaPlayer = MediaPlayer.create(this, R.raw.bombtiq);
+        mediaPlayer.start();
 
         handler.postDelayed(timeIsUp,TIME_TO_PLAY * 1000);
     }
