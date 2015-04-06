@@ -13,6 +13,7 @@
         android:id="@+id/land_logo"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
+        android:textColor="#ff2c3251"
         android:layout_marginTop="26dp" />
 
     <ImageButton
@@ -22,6 +23,7 @@
         android:id="@+id/button"
         android:onClick="playTheGame"
         android:layout_below="@+id/land_logo"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:background="@null"/>
 
 </RelativeLayout>

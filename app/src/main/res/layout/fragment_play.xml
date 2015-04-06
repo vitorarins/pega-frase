@@ -24,6 +24,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="25dp"
+        android:background="@null"
         android:layout_gravity="center_horizontal|bottom" />
 
     <ImageButton
@@ -34,6 +35,7 @@
         android:onClick="nextPlayer"
         android:visibility="invisible"
         android:clickable="false"
+        android:background="@null"
         android:layout_gravity="center_horizontal|bottom"
         android:layout_alignTop="@+id/chronometer_button"
         android:layout_centerHorizontal="true" />

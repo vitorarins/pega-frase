@@ -2,11 +2,305 @@
 <resources>
     <string-array
         name="wish_you_were_here">
-        <item>Pega Frase</item>
-        <item>banana</item>
-        <item>monkey</item>
-        <item>redneck</item>
-        <item>lele</item>
-        <item>vivi</item>
+                    <item>
+        Muralha da China
+        </item>
+        <item>
+        Stonehenge
+        </item>
+        <item>
+        Ilha de Páscoa
+        </item>
+        <item>
+        Havaí
+        </item>
+        <item>
+        Alaska
+        </item>
+        <item>
+        Floresta Amazônica
+        </item>
+        <item>
+        Cristo Redentor
+        </item>
+        <item>
+        Estátua da Liberdade
+        </item>
+        <item>
+        Torre Eiffel
+        </item>
+        <item>
+        Esfinge
+        </item>
+        <item>
+        Taj Mahal
+        </item>
+        <item>
+        Machu Picchu
+        </item>
+        <item>
+        Big Bem
+        </item>
+        <item>
+        Torre de Pisa
+        </item>
+        <item>
+        Lago Ness
+        </item>
+        <item>
+        Acrópolis
+        </item>
+        <item>
+        Monte Fuji
+        </item>
+        <item>
+        Monte Everest
+        </item>
+        <item>
+        Casa Branca
+        </item>
+        <item>
+        Casa Rosa
+        </item>
+        <item>
+        Monte Rushmore
+        </item>
+        <item>
+        Auschwitz
+        </item>
+        <item>
+        Foz do Iguaçu
+        </item>
+        <item>
+        Coliseu
+        </item>
+        <item>
+        Kremlin
+        </item>
+        <item>
+        Linha do Equador
+        </item>
+        <item>
+        Central Park
+        </item>
+        <item>
+        Museu do Louvre
+        </item>
+        <item>
+        Patagônia
+        </item>
+        <item>
+        Calçada da Fama
+        </item>
+        <item>
+        Hollywood
+        </item>
+        <item>
+        Bollywood
+        </item>
+        <item>
+        Ópera de Sydney
+        </item>
+        <item>
+        Aurora Boreal
+        </item>
+        <item>
+        Arco do Triunfo
+        </item>
+        <item>
+        Notre Dame
+        </item>
+        <item>
+        Moulin Rouge
+        </item>
+        <item>
+        Capela Sistina
+        </item>
+        <item>
+        Cancun
+        </item>
+        <item>
+        Estátua da Liberdade
+        </item>
+        <item>
+        Disney World
+        </item>
+        <item>
+        Fernando de Noronha
+        </item>
+        <item>
+        Florianópolis
+        </item>
+        <item>
+        Canal do Panamá
+        </item>
+        <item>
+        Lago Titicaca
+        </item>
+        <item>
+        Alcatraz
+        </item>
+        <item>
+        Baía de Guantanamo
+        </item>
+        <item>
+        Empire State
+        </item>
+        <item>
+        Rockfeller Center
+        </item>
+        <item>
+        Casapueblo
+        </item>
+        <item>
+        Veneza
+        </item>
+        <item>
+        Panteo
+        </item>
+        <item>
+        Muro das Lamentaçoes
+        </item>
+        <item>
+        Templo do Amanhecer
+        </item>
+        <item>
+        Oceano Índico
+        </item>
+        <item>
+        Mar Cáspio
+        </item>
+        <item>
+        Palácio de Versalhes
+        </item>
+        <item>
+        Universal Studios
+        </item>
+        <item>
+        Times Square
+        </item>
+        <item>
+        Palácio de Buckingham
+        </item>
+        <item>
+        Salar de Uyuni
+        </item>
+        <item>
+        Alpes
+        </item>
+        <item>
+        Andes
+        </item>
+        <item>
+        Liechtenstein
+        </item>
+        <item>
+        Copacabana
+        </item>
+        <item>
+        Maracanã
+        </item>
+        <item>
+        Itamaraty
+        </item>
+        <item>
+        Beto Carrero World
+        </item>
+        <item>
+        Chuí
+        </item>
+        <item>
+        Obelisco
+        </item>
+        <item>
+        Cataratas do Niágara
+        </item>
+        <item>
+        Muro de Berlim
+        </item>
+        <item>
+        Oktoberfest
+        </item>
+        <item>
+        Catedral de So Basílio
+        </item>
+        <item>
+        Bolshoi
+        </item>
+        <item>
+        Mercado Público
+        </item>
+        <item>
+        Wall Street
+        </item>
+        <item>
+        Jerusalém
+        </item>
+        <item>
+        Cidade Proibida
+        </item>
+        <item>
+        Pirâmide
+        </item>
+        <item>
+        Deserto de Saara
+        </item>
+        <item>
+        Deserto do Atacama
+        </item>
+        <item>
+        Fiorde
+        </item>
+        <item>
+        Ibiza
+        </item>
+        <item>
+        Madagascar
+        </item>
+        <item>
+        Greenwich
+        </item>
+        <item>
+        Singapura
+        </item>
+        <item>
+        Tibete
+        </item>
+        <item>
+        Pólo Norte
+        </item>
+        <item>
+        Antártica
+        </item>
+        <item>
+        Casa de Anne Frank
+        </item>
+        <item>
+        Rock in Rio
+        </item>
+        <item>
+        Lollapalooza
+        </item>
+        <item>
+        Woodstock
+        </item>
+        <item>
+        London Eye
+        </item>
+        <item>
+        Jardim Botânico
+        </item>
+        <item>
+        Floresta Negra
+        </item>
+        <item>
+        Pompéia
+        </item>
+        <item>
+        Mar Morto
+        </item>
+        <item>
+        Golfo Pérsico
+        </item>
     </string-array>
 </resources>

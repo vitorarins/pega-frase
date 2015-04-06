@@ -15,6 +15,7 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.LinkedList;
 
@@ -41,6 +42,7 @@ public class PlayGameActivity extends Activity {
         Resources res = getResources();
         String[] wishYouWereHere = res.getStringArray(R.array.wish_you_were_here);
         wordList = new LinkedList<String>(Arrays.asList(wishYouWereHere));
+        Collections.shuffle(wordList);
 
         FragmentManager fragmentManager = getFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();

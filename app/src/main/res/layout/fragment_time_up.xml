@@ -12,5 +12,6 @@
         android:layout_gravity="center"
         android:src="@drawable/tempo"
         android:layout_alignParentTop="true"
+        android:background="#ffffffff"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>
